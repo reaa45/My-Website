@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<head>
+    <title>My Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 90%;
+            height: 200px;
+            border: 1px solid black;
+            background-image: url('arkaplan.png');
+            background-size: cover;
+            background-position: center;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+            font-size: 45px;
+            line-height: 200px;
+        }
+
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        ul.navbar .left {
+            display: flex;
+        }
+
+        ul.navbar .right {
+            display: flex;
+        }
+
+        ul.navbar li {
+            display: inline-block;
+        }
+
+        ul.navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+
+        ul.navbar li a:hover {
+            background-color: #111;
+        }
+
+        .content {
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .content h2 {
+            margin-bottom: 10px;
+        }
+
+        .content p,
+        .content ul {
+            margin-bottom: 20px;
+        }
+
+        .content ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .table-section {
+            width: 90%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .lecture-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .lecture-table th,
+        .lecture-table td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            background-color: white;
+        }
+
+        .footer {
+            background-color: #ccc;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>
+                <h1>My Website</h1>
+            </th>
+        </tr>
+    </table>
+    <ul class="navbar">
+        <div class="left menu">
+            <li><a class="active" href="#skills">Skills</a></li>
+            <li><a href="file:///C:/Users/tekes/OneDrive/Masa%C3%BCst%C3%BC/My Website/home.html">Home</a></li>
+            <li><a href="file://C:/Users/tekes/OneDrive/Masa%C3%BCst%C3%BC/My Website/gallery.html">Gallery</a></li>
+            <li><a href="file://C:/Users/tekes/OneDrive/Masa%C3%BCst%C3%BC/My Website/contact.html">Contact</a></li>
+        </div>
+        <div class="right">
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+        </div>
+    </ul>
+    <div class="content">
+        <h2>EDUCATION</h2>
+        <p>Below, I wrote the schools I graduated from.</p>
+        <p><b>Elementary school:</b>I studied at Milli Egemenlik Primary School. </p>
+        <p><b>High school:</b> I studied at Salihli Central Anatolian High School.</p>
+        <p><b>Faculty:</b>I am currently a student at Goce Delcev University.</p>
+        <h2>Skills</h2>
+        <ul>
+            <li>Sporting skill</li>
+            <li>Leadership</li>
+            <li>Creativity</li>
+            <li>Problem solving</li>
+        </ul>
+        <h2>Awards</h2>
+        <p>I dont have any awards.</p>
+    </div>
+    <div class="table-section">
+        <h2>Lecture Schedule</h2>
+        <table class="lecture-table">
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td>Mathematics 1</td>
+                <td>///</td>
+                <td>Fundamentals of Computer Programming</td>
+                <td>Fundamentals of Electrical Engineering</td>
+                <td>English Language Level A2.1</td>
+            </tr>
+            <tr>
+                <td>Introduction in Informatics</td>
+                <td>Fundamentals of Electrical Engineering</td>
+                <td>Mathematics 1</td>
+                <td>Introduction in Informatics</td>
+                <td>///</td>
+            </tr>
+            <tr>
+                <td>///</td>
+                <td>///</td>
+                <td>///</td>
+                <td>Fundamentals of Computer Programming</td>
+                <td>///</td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        &copy; Copyright (Kenan/Tekeş, 103098)
+    </div>
+</body>
+
+</html>
